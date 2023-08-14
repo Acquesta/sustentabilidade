@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
+.HoteBar ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 5rem 0 5rem;
+    text-decoration: none;
+}
+
+ul li{
+    font-size: 20px;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+}
