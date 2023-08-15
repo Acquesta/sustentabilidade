@@ -1,4 +1,6 @@
 import './hotebar.css'
+import {BrowserRouter, Routes, Route} from "react-router-dom";
+
 
 export default function HoteBar(){
     return(
@@ -6,9 +8,9 @@ export default function HoteBar(){
             <div className="HoteBar">
                 <ul>
                     <li><img src="" alt="" /></li>
-                    <li>Home</li>
-                    <li>Contato</li>
-                    <li>Sobre</li>
+                    <li><a className='HoteBar__a' href="/">Home</a>&nbsp;&nbsp;&nbsp;</li>
+                    <li><a className='HoteBar__a' href="/sobre">Sobre</a>&nbsp;&nbsp;&nbsp;</li>
+                    <li><a className='HoteBar__a' href="/contato">Contato</a></li>
                 </ul>
             </div>
         </div>

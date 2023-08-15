@@ -1,0 +1,28 @@
+.projeos__h1{
+    color: #009416;
+    font-size: 60px;
+    padding-left: 3rem ;
+    margin: 3rem 0 3rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.projetos__cards{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    padding: 2rem;
+}
+
+.projeto__card{
+    border:solid 2px #009416;
+    border-radius: 5px;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    font-family: 'Lato', sans-serif;
+    box-shadow: 5px 5px 20px grey ;
+}
+
+.card__h2{
+    color: #009416;
+}

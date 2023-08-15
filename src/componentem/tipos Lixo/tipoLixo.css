@@ -1,0 +1,56 @@
+.tipolixo__titulo{
+    font-size: 60px;
+    color: #009416;
+    padding-left: 3rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.cards{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin:0 2rem 0 2rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.card{
+    padding: 1rem;
+    margin: 1rem;
+    width: 200px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 5px 5px 10px grey ;
+}
+
+.azul{
+    background-color: blue; 
+}
+.verde{
+    background-color: green;
+}
+.vermelho{
+    background-color: red;
+}
+.amarelo{
+    background-color: yellow;
+    color: black;
+}
+.marrom{
+    background-color: brown;
+}
+.preto{
+    background-color: black;
+    color: white;
+}
+.cinza{
+    background-color: grey;
+}
+.laranja{
+    background-color: orange;
+}
+.roxo{
+    background-color: purple;
+}
+.branco{
+    color: black;
+}

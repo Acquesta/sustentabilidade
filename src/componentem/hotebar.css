@@ -3,7 +3,7 @@
 .HoteBar ul{
     display: flex;
     justify-content: space-between;
-    margin: 2rem 5rem 0 5rem;
+    margin: 2rem 5rem 2rem 5rem;
     text-decoration: none;
 }
 
@@ -11,4 +11,18 @@ ul li{
     font-size: 20px;
     list-style: none;
     font-family: 'Lato', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #009416;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+ul :hover{
+    cursor: pointer;
+    background-color: #009416;
+    color: white;
+    transition: 0.5s;
 }
