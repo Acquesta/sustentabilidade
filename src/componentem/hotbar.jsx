@@ -9,7 +9,7 @@ export default function HoteBar(){
                 <ul>
                     <li><img src="" alt="" /></li>
                     <li><a className='HoteBar__a' href="/">Home</a>&nbsp;&nbsp;&nbsp;</li>
-                    <li><a className='HoteBar__a' href="/sobre">Sobre</a>&nbsp;&nbsp;&nbsp;</li>
+                    <li><a className='HoteBar__a' href="/sobre">Como funciona</a>&nbsp;&nbsp;&nbsp;</li>
                     <li><a className='HoteBar__a' href="/contato">Contato</a></li>
                 </ul>
             </div>

@@ -1,0 +1,33 @@
+.contato{
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+}
+
+.contato__h1{
+    background-color: #009416;
+    padding: 30% 4rem 4rem 4rem;
+    width: 60%;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.inouts__h2{
+    margin: 0 0 2rem 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.contato__inputs{
+    width: 100% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10rem;
+}
+
+.contato__inputs input{
+    margin-bottom: 3rem;
+    padding: 2rem;
+    color: #009416;
+}

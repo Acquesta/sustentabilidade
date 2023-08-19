@@ -1,10 +1,11 @@
 import HoteBar from "../componentem/hotbar"
+import Inputs from "../componentem/contato/inputs"
 
 export default function Contato(){
     return(
         <>
-        <HoteBar></HoteBar>
-            <h1>Contato</h1>
+            <HoteBar></HoteBar>
+            <Inputs></Inputs>
         </>
     )
 }
